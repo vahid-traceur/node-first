@@ -14,7 +14,6 @@ app.get('/node-test', (req, res) => {
   res.json(users)
 })
 
-
 app.listen(3000, () => {
   console.log('Example app listening on port 3000!')
 })
